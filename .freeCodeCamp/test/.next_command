@@ -31,3 +31,12 @@ trap '__vsc_preexec_all "$_"' DEBUG
 __vsc_original_prompt_command=${PROMPT_COMMAND:-}
 echo hello PostgreSQL
 psql --username=freecodecamp --dbname=postgres
+\d
+\c mario_database
+ls --color=auto
+find
+clear
+\d
+\d
+\l
+psql --username=freecodecamp --dbname=mario_database
